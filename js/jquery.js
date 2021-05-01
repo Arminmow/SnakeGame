@@ -27,7 +27,7 @@ $(function (){
     var keyPressed = DOWN;
     var game;
 
-    game = setInterval(gameLoop , 200);
+    game = setInterval(gameLoop , 100);
 
     function gameLoop (){
         //console.log("looping");
